@@ -46,17 +46,17 @@ An end-to-end project that fetches, processes, stores, and visualizes historical
 
 
 ## Project Structure
-    ├── Historical_data.py     # Fetches raw historical data from Binance API
+    ├── Historical_data.py  # Fetches raw historical data from Binance API
 
-    ├── PT_Data.py             # Processes and transforms the raw data
+    ├── PT_Data.py          # Processes and transforms the raw data
 
-    ├── Data_Storage.py        # Stores processed data into a PostgreSQL database
+    ├── Data_Storage.py     # Stores processed data into a PostgreSQL database
 
-    ├── api.py                 # FastAPI application with endpoints for processing, storing, and retrieving data
+    ├── api.py              # FastAPI application with endpoints for processing, storing and retrieving data
 
-    ├── app.py                 # Streamlit dashboard for data visualization from PostgressSQL
+    ├── app.py              # Streamlit dashboard for data visualization from PostgressSQL
 
-    └── README.md              # Project documentation (this file)
+    └── README.md           # Project documentation (this file)
 
 
 ## Features
