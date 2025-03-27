@@ -88,17 +88,11 @@ An end-to-end project that fetches, processes, stores, and visualizes historical
    
        cd yourrepo
    
-**2. Set Up a Virtual Environment (Recommended):**
-
-       python -m venv venv
-
-       source venv/bin/activate   # On Windows: venv\Scripts\activate
-
-**3. Install Dependencies:**
+**2. Install Dependencies:**
 
        pip install fastapi uvicorn sqlalchemy psycopg2-binary pandas streamlit plotly matplotlib
        
-**4. Configure PostgreSQL:**
+**3. Configure PostgreSQL:**
 
 - Ensure PostgreSQL is installed and running.
 
