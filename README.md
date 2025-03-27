@@ -84,10 +84,6 @@ An end-to-end project that fetches, processes, stores, and visualizes historical
 
 **1. Clone the Repository:**
    
-       git clone https://github.com/yourusername/yourrepo.git
-   
-       cd yourrepo
-   
 **2. Install Dependencies:**
 
        pip install fastapi uvicorn sqlalchemy psycopg2-binary pandas streamlit plotly matplotlib
