@@ -1,1 +1,1 @@
-# -Market-Data-Pipeline-for-Quantitative-Research
+# Market Data Pipeline for Quantitative Research
